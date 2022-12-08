@@ -1,9 +1,10 @@
 import { MoonIcon } from "@heroicons/react/24/solid"
-import { ToggleTheme } from "../ToggleTheme/ToggleTheme";
+import { ToggleTheme } from "../index.js";
 
-export default function Header () {
+
+export function Header () {
   return (
-    <div className="flex h-20 bg-gray-500 justify-between items-center px-5 sm:rounded-xl sm:m-5">
+    <div className="flex h-20 bg-custom-200 dark:bg-dark-200 justify-between items-center px-5 sm:rounded-xl sm:m-5">
       <span className="text-gray-100">Olá, Usuário</span>
       <h1 className="text-gray-100 text-xl">Newletter</h1>
       {/* <input className="hidden sm:block"  type="checkbox" /> */}
