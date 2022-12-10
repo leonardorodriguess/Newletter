@@ -1,7 +1,10 @@
-import { Header } from "./components";
+import { ArticleList, Header } from "./components";
 
 export default function App () {
   return (
-    <Header />
+    <>
+      <Header />
+      <ArticleList /> 
+    </>
   )
 }
