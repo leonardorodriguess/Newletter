@@ -8,7 +8,7 @@ export function Article ({ title, text, tags, image, alt}) {
         {tags.map((tag, index) => 
           <span 
             key={index}
-            className="bg-custom-100 dark:bg-dark-100 px-4 py-1 rounded-full text-gray-200 font-bold text-xs uppercase hover:bg-custom-200 hover:scale-110"
+            className="custom-tag"
           >
             {tag}
           </span>
