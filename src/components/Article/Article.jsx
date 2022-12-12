@@ -1,6 +1,6 @@
 export function Article ({ title, text, tags, image, alt}) {
   return (
-    <div className="p-5 bg-gray-200 dark:bg-dark-200 rounded-xl sm:shadow-lg gap-2 sm:hover:shadow-gray-500 sm:hover:shadow-black sm:hover:shadow-lg">
+    <div className="custom-card">
       
       <h3 className="text-xl text-custom-200 dark:text-gray-200 font-bold flex flex-col items-center">{title}</h3>
 

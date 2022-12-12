@@ -15,8 +15,7 @@ export function Form ({ onSubmit }) {
         <input type="text" required className="custom-input" placeholder="Insira seu nome..." />
         <input type="email" required className="custom-input" placeholder="Insira seu e-mail..." />
 
-        <button type="submit" className="bg-custom-100 dark:bg-dark-100  text-gray-200 rounded-full px-5 py-1 uppercase 
-        hover:animate-pulse hover:shadow-md hover:shadow-gray-500 hover:dark:shadow-black">Seguir</button>
+        <button type="submit" className="custom-button">Seguir</button>
 
       </form>
 
