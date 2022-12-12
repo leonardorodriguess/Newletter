@@ -1,6 +1,6 @@
 export function Article ({ title, text, tags, image, alt}) {
   return (
-    <div className="p-5 bg-gray-200 dark:bg-dark-200 rounded-xl sm:shadow-lg gap-2">
+    <div className="p-5 bg-gray-200 dark:bg-dark-200 rounded-xl sm:shadow-lg gap-2 sm:hover:shadow-gray-500 sm:hover:shadow-black sm:hover:shadow-lg">
       
       <h3 className="text-xl text-custom-200 dark:text-gray-200 font-bold flex flex-col items-center">{title}</h3>
 
@@ -8,7 +8,7 @@ export function Article ({ title, text, tags, image, alt}) {
         {tags.map((tag, index) => 
           <span 
             key={index}
-            className="bg-custom-100 dark:bg-dark-100 px-4 py-1 rounded-full text-gray-200 font-bold text-xs uppercase"
+            className="bg-custom-100 dark:bg-dark-100 px-4 py-1 rounded-full text-gray-200 font-bold text-xs uppercase hover:bg-custom-200 hover:scale-110"
           >
             {tag}
           </span>
